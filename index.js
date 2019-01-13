@@ -1,4 +1,4 @@
-module.exports = function Respawn(mod) {
+module.exports = function TerableRespawn(mod) {
 	const command = mod.command || mod.require.command;
 	
 	function timeStamp() {
@@ -24,7 +24,7 @@ module.exports = function Respawn(mod) {
 	let location;
 	let locationRealTime;
 	
-	command.add(['respawn'], {
+	command.add(['respawn', 'terar', 'trespawn', 'terablerespawn'], {
     	$default() {
     		enabled = !enabled;
         	command.message(`Respawn is now ${enabled ? "enabled" : "disabled"}.`);

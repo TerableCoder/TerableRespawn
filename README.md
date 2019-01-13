@@ -1,6 +1,6 @@
-# Respawn
+# TerableRespawn
 
-Type "respawn" to toggle on/off, default off.
+Type "respawn" or "terar" to toggle on/off, default off.
 
 When you die, you will ressurect in town after 1 second. 7 seconds after you spawn, your location will be resynced to where you died.
 
